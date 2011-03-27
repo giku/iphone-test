@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EB999D9133F4D410004ACC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB999D8133F4D410004ACC4 /* UIKit.framework */; };
+		6EB999DB133F4D410004ACC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB999DA133F4D410004ACC4 /* Foundation.framework */; };
+		6EB999DD133F4D410004ACC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB999DC133F4D410004ACC4 /* CoreGraphics.framework */; };
+		6EB999E3133F4D410004ACC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EB999E1133F4D410004ACC4 /* InfoPlist.strings */; };
+		6EB999E6133F4D410004ACC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB999E5133F4D410004ACC4 /* main.m */; };
+		6EB999E9133F4D410004ACC4 /* gitdobryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB999E8133F4D410004ACC4 /* gitdobryAppDelegate.m */; };
+		6EB999EC133F4D410004ACC4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB999EA133F4D410004ACC4 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EB999D4133F4D410004ACC4 /* gitdobry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitdobry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB999D8133F4D410004ACC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6EB999DA133F4D410004ACC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6EB999DC133F4D410004ACC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6EB999E0133F4D410004ACC4 /* gitdobry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitdobry-Info.plist"; sourceTree = "<group>"; };
+		6EB999E2133F4D410004ACC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EB999E4133F4D410004ACC4 /* gitdobry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gitdobry-Prefix.pch"; sourceTree = "<group>"; };
+		6EB999E5133F4D410004ACC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EB999E7133F4D410004ACC4 /* gitdobryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gitdobryAppDelegate.h; sourceTree = "<group>"; };
+		6EB999E8133F4D410004ACC4 /* gitdobryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitdobryAppDelegate.m; sourceTree = "<group>"; };
+		6EB999EB133F4D410004ACC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB999D1133F4D410004ACC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB999D9133F4D410004ACC4 /* UIKit.framework in Frameworks */,
+				6EB999DB133F4D410004ACC4 /* Foundation.framework in Frameworks */,
+				6EB999DD133F4D410004ACC4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EB999C9133F4D400004ACC4 = {
+			isa = PBXGroup;
+			children = (
+				6EB999DE133F4D410004ACC4 /* gitdobry */,
+				6EB999D7133F4D410004ACC4 /* Frameworks */,
+				6EB999D5133F4D410004ACC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB999D5133F4D410004ACC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB999D4133F4D410004ACC4 /* gitdobry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB999D7133F4D410004ACC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EB999D8133F4D410004ACC4 /* UIKit.framework */,
+				6EB999DA133F4D410004ACC4 /* Foundation.framework */,
+				6EB999DC133F4D410004ACC4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EB999DE133F4D410004ACC4 /* gitdobry */ = {
+			isa = PBXGroup;
+			children = (
+				6EB999E7133F4D410004ACC4 /* gitdobryAppDelegate.h */,
+				6EB999E8133F4D410004ACC4 /* gitdobryAppDelegate.m */,
+				6EB999EA133F4D410004ACC4 /* MainWindow.xib */,
+				6EB999DF133F4D410004ACC4 /* Supporting Files */,
+			);
+			path = gitdobry;
+			sourceTree = "<group>";
+		};
+		6EB999DF133F4D410004ACC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EB999E0133F4D410004ACC4 /* gitdobry-Info.plist */,
+				6EB999E1133F4D410004ACC4 /* InfoPlist.strings */,
+				6EB999E4133F4D410004ACC4 /* gitdobry-Prefix.pch */,
+				6EB999E5133F4D410004ACC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB999D3133F4D410004ACC4 /* gitdobry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB999EF133F4D410004ACC4 /* Build configuration list for PBXNativeTarget "gitdobry" */;
+			buildPhases = (
+				6EB999D0133F4D410004ACC4 /* Sources */,
+				6EB999D1133F4D410004ACC4 /* Frameworks */,
+				6EB999D2133F4D410004ACC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gitdobry;
+			productName = gitdobry;
+			productReference = 6EB999D4133F4D410004ACC4 /* gitdobry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB999CB133F4D400004ACC4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6EB999CE133F4D400004ACC4 /* Build configuration list for PBXProject "gitdobry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6EB999C9133F4D400004ACC4;
+			productRefGroup = 6EB999D5133F4D410004ACC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB999D3133F4D410004ACC4 /* gitdobry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB999D2133F4D410004ACC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB999E3133F4D410004ACC4 /* InfoPlist.strings in Resources */,
+				6EB999EC133F4D410004ACC4 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB999D0133F4D410004ACC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB999E6133F4D410004ACC4 /* main.m in Sources */,
+				6EB999E9133F4D410004ACC4 /* gitdobryAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EB999E1133F4D410004ACC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB999E2133F4D410004ACC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6EB999EA133F4D410004ACC4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB999EB133F4D410004ACC4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EB999ED133F4D410004ACC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EB999EE133F4D410004ACC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6EB999F0133F4D410004ACC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gitdobry/gitdobry-Prefix.pch";
+				INFOPLIST_FILE = "gitdobry/gitdobry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EB999F1133F4D410004ACC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gitdobry/gitdobry-Prefix.pch";
+				INFOPLIST_FILE = "gitdobry/gitdobry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB999CE133F4D400004ACC4 /* Build configuration list for PBXProject "gitdobry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB999ED133F4D410004ACC4 /* Debug */,
+				6EB999EE133F4D410004ACC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB999EF133F4D410004ACC4 /* Build configuration list for PBXNativeTarget "gitdobry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB999F0133F4D410004ACC4 /* Debug */,
+				6EB999F1133F4D410004ACC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EB999CB133F4D400004ACC4 /* Project object */;
+}
